@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  height: auto;
+}
+
+.App {
+  text-align: center;
+  background: #455561;
+  height: auto;
+}
+
+.App > h4 {
+  text-align: left;
+  padding: 5px;
+}

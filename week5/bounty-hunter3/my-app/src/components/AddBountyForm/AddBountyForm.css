@@ -1,0 +1,63 @@
+form {
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    padding: 7px;
+    font-size: 12px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    margin: 5px;
+    background-color: #e0e4ff;
+}
+
+button {
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    border: none;
+    background-color: #3A435E;
+    color: whitesmoke;
+}
+
+button:hover {
+   -webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.button-container {
+    margin: 2px;
+}
+
+.delete-btn {
+    background-color: firebrick;
+    color: whitesmoke;
+}
+
+.delete-btn:hover {
+   -webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.edit-btn {
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    
+}
+
+.edit-btn:hover {
+    -webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);   
+}
+
+.close-btn:hover {
+    -webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);       
+}
