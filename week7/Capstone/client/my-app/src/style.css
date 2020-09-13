@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgb(220, 151, 252);
+}
+
+h1 {
+  margin: 5px;
+}
+
+p {
+  margin: 5px;
+  
+}
+
+.magic-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 32px;
+}
+
+.magic {
+  border: 1px solid rgb(0, 119, 255);
+  padding: 10px;
+  margin: 5px;
+}
+
+form {
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 5px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.delete-btn {
+  background-color: firebrick;
+  color: whitesmoke;
+}
+
+.edit-btn {
+  background-color: cornflowerblue;
+  color: whitesmoke
+}
+
+.background {
+  background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+  background-size: cover;
+  height: 100%;
+}
+
+.color {
+  color: rgb(0, 0, 0);
+}
+
+.btnColor {
+  background-color: green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
